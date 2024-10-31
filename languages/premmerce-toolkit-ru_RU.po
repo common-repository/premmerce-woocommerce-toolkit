@@ -1,0 +1,176 @@
+# Copyright (C) 2017 Premmerce
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Premmerce Toolkit\n"
+"Report-Msgid-Bugs-To: issues\n"
+"POT-Creation-Date: 2017-11-01 17:13+0200\n"
+"PO-Revision-Date: 2017-11-01 17:14+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: build/src/Admin/Admin.php:79 src/Admin/Admin.php:79
+msgid "Settings"
+msgstr "Настройки"
+
+#: build/src/Admin/Admin.php:82 src/Admin/Admin.php:82
+msgid "Contact Us"
+msgstr "Свяжитесь с нами"
+
+#: build/src/Admin/Admin.php:84 src/Admin/Admin.php:84
+msgid "Account"
+msgstr "Аккаунт"
+
+#: build/src/Admin/Admin.php:103 build/views/admin/tabs/settings.php:11
+#: src/Admin/Admin.php:103 views/admin/tabs/settings.php:11
+msgid "Product video"
+msgstr "Видео товара"
+
+#: build/src/PremmerceToolkitPlugin.php:68 src/PremmerceToolkitPlugin.php:68
+msgid "Description"
+msgstr "Описание"
+
+#: build/src/PremmerceToolkitPlugin.php:70 src/PremmerceToolkitPlugin.php:70
+msgid "Description shipping method"
+msgstr "Описание метода доставки"
+
+#: build/src/PremmerceToolkitPlugin.php:136 src/PremmerceToolkitPlugin.php:140
+#, php-format
+msgid "The %s plugin requires %s plugin to be active!"
+msgstr "Для работы плагина %s нужен плагин %s"
+
+#: build/views/admin/menu-page.php:2 views/admin/menu-page.php:2
+msgid "Premmerce WooCommerce Toolkit"
+msgstr "Premmerce WooCommerce Toolkit"
+
+#: build/views/admin/product-video-box.php:4
+#: views/admin/product-video-box.php:4
+msgid "Add new video"
+msgstr "Добавить новое видео"
+
+#: build/views/admin/product-video-box.php:7
+#: views/admin/product-video-box.php:7
+msgid "Add"
+msgstr "Добавить"
+
+#: build/views/admin/product-video-box.php:10
+#: views/admin/product-video-box.php:10
+msgid "YouTube or Vimeo video URL."
+msgstr "URL видео с YouTube или Vimeo."
+
+#: build/views/admin/product-video-box.php:40
+#: build/views/admin/product-video-box.php:47
+#: views/admin/product-video-box.php:40 views/admin/product-video-box.php:47
+msgid "Delete video"
+msgstr "Удалить видео"
+
+#: build/views/admin/product-video-box.php:40
+#: build/views/admin/product-video-box.php:48
+#: views/admin/product-video-box.php:40 views/admin/product-video-box.php:48
+msgid "Delete"
+msgstr "Удалить"
+
+#: build/views/admin/product-video-box.php:49
+#: views/admin/product-video-box.php:49
+msgid "Please enter correct URL."
+msgstr "Пожалуйста введите корректный URL."
+
+#: build/views/admin/product-video-box.php:50
+#: views/admin/product-video-box.php:50
+msgid "Please enter URL of YouTube or Vimeo video."
+msgstr "Пожалуйста введите URL видео с YouTube или Vimeo."
+
+#: build/views/admin/tabs/settings.php:7 views/admin/tabs/settings.php:7
+msgid "Products"
+msgstr "Товары"
+
+#: build/views/admin/tabs/settings.php:15 views/admin/tabs/settings.php:15
+msgid "Activate the ability to add videos to the product."
+msgstr "Активировать возможность добавить видео к товару."
+
+#: build/views/admin/tabs/settings.php:20 views/admin/tabs/settings.php:20
+msgid "WooCommerce settings"
+msgstr "WooCommerce настройки"
+
+#: build/views/admin/tabs/settings.php:24 views/admin/tabs/settings.php:24
+msgid "Shipping description"
+msgstr "Описание доставки"
+
+#: build/views/admin/tabs/settings.php:28 views/admin/tabs/settings.php:28
+msgid "Enable the option to add description to shipping methods."
+msgstr "Активировать возможность добавить описание к методам доставки."
+
+#: build/views/admin/tabs/settings.php:34 views/admin/tabs/settings.php:34
+msgid "Catalog mode"
+msgstr "Режим каталога"
+
+#: build/views/admin/tabs/settings.php:38 views/admin/tabs/settings.php:38
+msgid ""
+"If you use this option, the user will not be able to buy items in the store."
+msgstr ""
+"При использовании данного параметра, пользователь не сможет купить товары в "
+"магазине."
+
+#: build/views/admin/tabs/settings.php:43 views/admin/tabs/settings.php:43
+msgid "User scripts"
+msgstr "Пользовательские скрипты"
+
+#: build/views/admin/tabs/settings.php:61 views/admin/tabs/settings.php:61
+msgid "Save Changes"
+msgstr "Сохранить изминения"
+
+#~ msgid "This plugin requires %s plugin to be active!"
+#~ msgstr "Работает только с установленным плагином %s!"
+
+#~ msgid "WooCommerce Settings"
+#~ msgstr "WooCommerce Настройки"
+
+#~ msgid "Premmerce Product Categories Filter"
+#~ msgstr "Premmerce фильтр по категориях товаров"
+
+#~ msgid "Filter by product categories on the brand and search results page."
+#~ msgstr "Фильтрует по категориях товаров на странице бренда и поиска"
+
+#~ msgid "Title"
+#~ msgstr "Название"
+
+#~ msgid "View count"
+#~ msgstr "Отображать количество"
+
+#~ msgid "Widgets"
+#~ msgstr "Виджеты"
+
+#~ msgid "Product Categories Filter"
+#~ msgstr "Фильтр категорий товаров"
+
+#~ msgid "Activate the product widget filter"
+#~ msgstr "Активировть виджет фильтра категорий товаров"
+
+#~ msgid "Product Categories Filter from Premmerce WooCommerce Toolkit"
+#~ msgstr "Фильтр категорий товаров от Premmerce WooCommerce Toolkit"
+
+#~ msgid "Add video from Youtube or Vimeo"
+#~ msgstr "Добавить видео с Youtube или Vimeo"
+
+#~ msgid "Url is not valid"
+#~ msgstr "Ссылка не валидна"
+
+#~ msgid "Only youtube or vimeo urls"
+#~ msgstr "Только ссылки с youtube или vimeo"
+
+#~ msgid "Category Filter Widget"
+#~ msgstr "Виджет фильтра по категориях"
+
+#~ msgid "Category Filter Widget from Premmerce Toolkit"
+#~ msgstr "Виджет фильтра по категориях от Premmerce Toolkit"

@@ -1,0 +1,114 @@
+.product_videos_container ul:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.product_videos_container ul li.add,
+.product_videos_container ul li.image,
+.product_videos_container ul li.wc-metabox-sortable-placeholder {
+    width: 80px;
+    float: left;
+    border: 1px solid #d5d5d5;
+    margin: 9px 9px 0 0;
+    background: #f7f7f7;
+    border-radius: 2px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.product_videos_container ul li.add img,
+.product_videos_container ul li.image img,
+.product_videos_container ul li.wc-metabox-sortable-placeholder img {
+    width: 100%;
+    height: auto;
+    display: block;
+    cursor: auto;
+}
+
+.product_videos_container ul {
+    margin: 0;
+    padding: 0 0 6px 0;
+}
+
+.product_videos_container {
+    padding: 0 0 0 9px;
+}
+
+#product_video_box .inside {
+    margin: 0;
+    padding: 0;
+}
+
+.product_videos_container ul ul.actions {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    padding: 2px;
+    display: none;
+}
+
+.product_videos_container ul li:hover ul.actions {
+    display: block;
+}
+
+.product_videos_container ul ul.actions li a.delete:hover::before {
+    color: #a00;
+}
+
+.product_videos_container ul ul.actions li a.delete::before {
+    font-family: Dashicons, serif;
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    content: "";
+    color: #999;
+    background: #fff;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    line-height: 1em;
+}
+
+.product_videos_container ul::after,
+.product_videos_container ul::before {
+    content: ' ';
+    display: table;
+}
+
+.product_videos_container ul::after {
+    clear: both;
+}
+
+.product_videos_container ul ul.actions li a.delete {
+    display: block;
+    text-indent: -9999px;
+    position: relative;
+    height: 1em;
+    width: 1em;
+    font-size: 1.4em;
+}
+
+.product_videos_container ul ul.actions li a.tips {
+    cursor: pointer;
+}
+
+.product_videos_container ul ul.actions li a {
+    width: 1em;
+    margin: 0;
+    height: 0;
+    display: block;
+    overflow: hidden;
+}
+
+.product-videos-jaxtag {
+    padding: 0 12px 12px;
+}
